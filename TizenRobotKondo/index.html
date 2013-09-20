@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="bt-chat"/>
+	<meta name="viewport" content="width=360, user-scalable=no"/>
+
+	<title>Bluetooth chat</title>
+	<script src="tizen-web-ui-fw/latest/js/jquery.min.js"></script>
+	<script src="tizen-web-ui-fw/latest/js/tizen-web-ui-fw-libs.min.js"></script>
+	<script src="tizen-web-ui-fw/latest/js/tizen-web-ui-fw.min.js" data-framework-theme="tizen-white" data-framework-viewport-scale="false"></script>
+
+	<script type="text/javascript" src="./js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+
+<body>
+	<div id="start" data-role="page">
+		<div id="start-header" data-role="header" data-position="fixed">
+			<h1>Bluetooth chat</h1>
+		</div>
+
+		<div id="start-content" data-role="content" data-scroll="none">
+			<div class="box">
+				<div data-role="button" class="ui-btn-start" id="turnOnButton" style="display: none;">Turn bluetooth on</div>
+				<div data-role="button" class="ui-btn-start" id="serverButton" style="display: none;">Create server</div>
+				<div data-role="button" class="ui-btn-start" id="clientButton" style="display: none;">Join server</div>
+				<div id="start-monit" style="display: none;">
+					<p>Waiting for Bluetooth radio...</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

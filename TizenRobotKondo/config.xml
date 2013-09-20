@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/TizenRobotKondo" version="2.2.0" viewmodes="maximized">
+    <tizen:application id="2MNT95a2db.TizenRobotKondo" package="2MNT95a2db" required_version="2.2"/>
+    <content src="index.html"/>
+    <icon src="icon.png"/>
+    <name>TizenRobotKondo</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/bluetooth.admin"/>
+    <tizen:privilege name="http://tizen.org/privilege/bluetooth.gap"/>
+    <tizen:privilege name="http://tizen.org/privilege/bluetooth.spp"/>
+    <tizen:privilege name="http://tizen.org/privilege/tizen"/>
+    <tizen:setting screen-orientation="portrait" context-menu="disable" background-support="disable" encryption="disable" install-location="auto"/>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+</widget>
