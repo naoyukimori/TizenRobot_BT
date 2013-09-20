@@ -24,7 +24,9 @@ var App = null;
 		           'js/app.client.js',
 		           'js/app.client.model.js',
 		           'js/app.server.js',
-		           'js/app.server.model.js'
+		           'js/app.server.model.js',
+		           'js/app.robot.kondo.js',
+		           'js/app.robot.kondo.model.js',
 		           ],
 
 		/**
@@ -60,7 +62,7 @@ var App = null;
 		/**
 		 * @type String
 		 */
-		currentName: '',
+		currentName: 'TizenRobotCtl',
 
 		/**
 		 * @type Boolean
@@ -156,7 +158,8 @@ var App = null;
 		},
 
 		startClient: function App_startClient() {
-			this.client = new Client(this.model.adapter, this.model.serviceUUID);
+			//this.client = new Client(this.model.adapter, this.model.serviceUUID);
+			this.client = new RobotKondoClient(this.model.adapter, this.model.serviceUUID);
 			this.showKeyboardPage();
 		},
 

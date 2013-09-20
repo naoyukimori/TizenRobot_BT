@@ -6,7 +6,8 @@
 function Model() {
 	'use strict';
 	this.adapter = null;
-	this.serviceUUID = '5BCE9431-6C75-32AB-AFE0-2EC108A30860';
+	//this.serviceUUID = '5BCE9431-6C75-32AB-AFE0-2EC108A30860';	// Tizen SDK BluetoothChat sample
+	this.serviceUUID = '00001101-0000-1000-8000-00805F9B34FB';		// SPP standard GUID
 }
 
 (function () { // strict mode wrapper
